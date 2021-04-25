@@ -1,0 +1,11 @@
+public class TipoPrenda{
+    Categoria categoria;
+
+    TipoPrenda(Categoria categoriaCompatible){
+        this.categoria = categoriaCompatible;
+    }
+
+    public Categoria getCategoria() { //Para que se pueda mostrar la categoria en la prenda
+        return categoria;
+    }
+}
